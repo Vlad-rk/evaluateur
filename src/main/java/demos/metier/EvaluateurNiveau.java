@@ -20,7 +20,7 @@ public class EvaluateurNiveau {
 	// Fonctions utilitaires
 	private static boolean estEntier( String valeur ) {
 		try {
-			Integer.valueOf(valeur);
+			Integer.valueOf(valeur)//;
 		}
 		catch( NumberFormatException e ) {
 			return false;
