@@ -64,9 +64,9 @@ public class EvaluateurNiveau {
 		if ( somme < LIMITE_DC ) {
 			return NIVEAU_D;
 		} else if ( somme < LIMITE_CB ) {
-			return NIVEAU_C;
-		} else if ( somme < LIMITE_BA ) {
 			return NIVEAU_B;
+		} else if ( somme < LIMITE_BA ) {
+			return NIVEAU_C;
 		}
 		else return NIVEAU_A;
 	}
